@@ -102,6 +102,8 @@ This is where you can give a hat tip to anyone who helped you out on this projec
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
 
+## Setup instructions
+
 Initialize project
 
 ```
@@ -166,7 +168,8 @@ Initialise git repository
 ```
 git init
 git add .
-git commit -m "Initial commit"
+git commit -m "initial commit"
+git branch -M master
 git remote add origin https://github.com/kkarad/vite-preact-tailwind-seed.git
-git push -set-upstream origin master
+git push -u origin master
 ```

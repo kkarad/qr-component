@@ -170,6 +170,6 @@ git init
 git add .
 git commit -m "initial commit"
 git branch -M master
-git remote add origin https://github.com/kkarad/vite-preact-tailwind-seed.git
+git remote add origin <<your-git-repo-url>>
 git push -u origin master
 ```
